@@ -1,5 +1,4 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/offensive-security/kali-linux-docker/master/Dockerfile
-
-
+docker build -t kali .
+docker run -it kali /bin/bash
